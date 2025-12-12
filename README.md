@@ -166,6 +166,8 @@ With the trained model we run predictions on the testing set and got this final 
 | eval_steps_per_second   | 1.9180  |
 | epoch                   | 4.0     |
 
+> **Note**: Label (1) is for "Real" articles and label (0) is for "Fake" articles. This is how the model was train.
+
 ---
 
 ### Model Analysis & Evaluation
@@ -205,5 +207,6 @@ This project successfully demonstrates that **Sequential Fine-Tuning** is an eff
 ### Impact:
 
 This classifier provides a foundation for automated fake news detection in Spanish-language media, a critical need given the prevalence of misinformation in Spanish-speaking communities. The sequential fine-tuning methodology can be adapted to other low-resource scenarios where data scarcity and distribution mismatch pose similar challenges.
+
 
 

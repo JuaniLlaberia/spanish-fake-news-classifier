@@ -6,7 +6,7 @@
 
 The objective of this repository is to research and implement a robust classification system to distinguish between **real** and **fake** news articles written in Spanish.
 
-The core architecture leverages a Transformer model—specifically `bert-base-spanish-wwm-uncased`—which has been pre-trained on a massive Spanish corpus. We employ a **Sequential Fine-Tuning** strategy to adapt this model to the specific domain of long-form news articles, overcoming data scarcity and length variation issues.
+The core architecture leverages a Transformer model-specifically `bert-base-spanish-wwm-uncased`-which has been pre-trained on a massive Spanish corpus. We employ a **Sequential Fine-Tuning** strategy to adapt this model to the specific domain of long-form news articles, overcoming data scarcity and length variation issues.
 
 > **Important:**
 > The actual model has not been uploaded to the repository as it's too heavy. You can find it in [HuggingFace](https://huggingface.co/Juanillaberia/spanish-fake-news-classifier).
@@ -209,6 +209,7 @@ This project successfully demonstrates that **Sequential Fine-Tuning** is an eff
 ### Impact:
 
 This classifier provides a foundation for automated fake news detection in Spanish-language media, a critical need given the prevalence of misinformation in Spanish-speaking communities. The sequential fine-tuning methodology can be adapted to other low-resource scenarios where data scarcity and distribution mismatch pose similar challenges.
+
 
 
 

@@ -1,5 +1,7 @@
 ﻿# Spanish Fake News Classifier: A Sequential Fine-Tuning Approach
 
+*Paper*: https://openreview.net/forum?id=ARX3eBpHgq
+
 ### Introduction
 
 The objective of this repository is to research and implement a robust classification system to distinguish between **real** and **fake** news articles written in Spanish.
@@ -207,6 +209,7 @@ This project successfully demonstrates that **Sequential Fine-Tuning** is an eff
 ### Impact:
 
 This classifier provides a foundation for automated fake news detection in Spanish-language media, a critical need given the prevalence of misinformation in Spanish-speaking communities. The sequential fine-tuning methodology can be adapted to other low-resource scenarios where data scarcity and distribution mismatch pose similar challenges.
+
 
 
 
